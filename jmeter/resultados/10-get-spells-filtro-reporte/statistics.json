@@ -1,0 +1,34 @@
+{
+  "GET /Spells?name=Lumos" : {
+    "transaction" : "GET /Spells?name=Lumos",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 784.6,
+    "medianResTime" : 775.0,
+    "minResTime" : 772.0,
+    "maxResTime" : 826.0,
+    "pct1ResTime" : 826.0,
+    "pct2ResTime" : 826.0,
+    "pct3ResTime" : 826.0,
+    "throughput" : 2.175805047867711,
+    "receivedKBytesPerSec" : 2.828971524151436,
+    "sentKBytesPerSec" : 0.37396649260226283
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 784.6,
+    "medianResTime" : 775.0,
+    "minResTime" : 772.0,
+    "maxResTime" : 826.0,
+    "pct1ResTime" : 826.0,
+    "pct2ResTime" : 826.0,
+    "pct3ResTime" : 826.0,
+    "throughput" : 2.175805047867711,
+    "receivedKBytesPerSec" : 2.828971524151436,
+    "sentKBytesPerSec" : 0.37396649260226283
+  }
+}

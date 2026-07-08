@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1783546067428,935,GET /Wizards,200,OK,Usuarios 1-1,text,true,,5027,166,3,3,https://wizard-world-api.herokuapp.com/Wizards,933,0,730
+1783546067754,785,GET /Wizards,200,OK,Usuarios 1-2,text,true,,5027,166,2,2,https://wizard-world-api.herokuapp.com/Wizards,785,0,587
+1783546068155,773,GET /Wizards,200,OK,Usuarios 1-3,text,true,,5023,166,2,2,https://wizard-world-api.herokuapp.com/Wizards,773,0,576
+1783546068553,774,GET /Wizards,200,OK,Usuarios 1-4,text,true,,5023,166,2,2,https://wizard-world-api.herokuapp.com/Wizards,773,0,577
+1783546068953,769,GET /Wizards,200,OK,Usuarios 1-5,text,true,,5023,166,1,1,https://wizard-world-api.herokuapp.com/Wizards,769,0,573

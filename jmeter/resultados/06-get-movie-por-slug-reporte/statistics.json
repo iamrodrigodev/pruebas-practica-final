@@ -1,0 +1,34 @@
+{
+  "GET /Spells/{id}" : {
+    "transaction" : "GET /Spells/{id}",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 788.8,
+    "medianResTime" : 775.0,
+    "minResTime" : 769.0,
+    "maxResTime" : 838.0,
+    "pct1ResTime" : 838.0,
+    "pct2ResTime" : 838.0,
+    "pct3ResTime" : 838.0,
+    "throughput" : 2.1795989537925022,
+    "receivedKBytesPerSec" : 1.8275426384045335,
+    "sentKBytesPerSec" : 0.42995994986922403
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 788.8,
+    "medianResTime" : 775.0,
+    "minResTime" : 769.0,
+    "maxResTime" : 838.0,
+    "pct1ResTime" : 838.0,
+    "pct2ResTime" : 838.0,
+    "pct3ResTime" : 838.0,
+    "throughput" : 2.1795989537925022,
+    "receivedKBytesPerSec" : 1.8275426384045335,
+    "sentKBytesPerSec" : 0.42995994986922403
+  }
+}

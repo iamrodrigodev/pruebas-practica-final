@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1783546085038,838,GET /Spells/{id},200,OK,Usuarios 1-1,text,true,,857,202,3,3,https://wizard-world-api.herokuapp.com/Spells/fbd3cb46-c174-4843-a07e-fd83545dce58,835,0,612
+1783546085365,788,GET /Spells/{id},200,OK,Usuarios 1-2,text,true,,857,202,2,2,https://wizard-world-api.herokuapp.com/Spells/fbd3cb46-c174-4843-a07e-fd83545dce58,788,0,581
+1783546085763,775,GET /Spells/{id},200,OK,Usuarios 1-3,text,true,,857,202,2,2,https://wizard-world-api.herokuapp.com/Spells/fbd3cb46-c174-4843-a07e-fd83545dce58,775,0,578
+1783546086162,774,GET /Spells/{id},200,OK,Usuarios 1-4,text,true,,861,202,2,2,https://wizard-world-api.herokuapp.com/Spells/fbd3cb46-c174-4843-a07e-fd83545dce58,774,0,577
+1783546086563,769,GET /Spells/{id},200,OK,Usuarios 1-5,text,true,,861,202,1,1,https://wizard-world-api.herokuapp.com/Spells/fbd3cb46-c174-4843-a07e-fd83545dce58,769,0,573

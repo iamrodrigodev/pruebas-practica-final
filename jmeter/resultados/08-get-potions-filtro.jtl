@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1783546096687,813,GET /Elixirs/{id},200,OK,Usuarios 1-1,text,true,,1165,203,3,3,https://wizard-world-api.herokuapp.com/Elixirs/0106fb32-b00d-4d70-9841-4b7c2d2cca71,810,0,608
+1783546097013,777,GET /Elixirs/{id},200,OK,Usuarios 1-2,text,true,,1161,203,2,2,https://wizard-world-api.herokuapp.com/Elixirs/0106fb32-b00d-4d70-9841-4b7c2d2cca71,777,0,581
+1783546097412,775,GET /Elixirs/{id},200,OK,Usuarios 1-3,text,true,,1161,203,2,2,https://wizard-world-api.herokuapp.com/Elixirs/0106fb32-b00d-4d70-9841-4b7c2d2cca71,775,0,578
+1783546097819,773,GET /Elixirs/{id},200,OK,Usuarios 1-4,text,true,,1161,203,2,2,https://wizard-world-api.herokuapp.com/Elixirs/0106fb32-b00d-4d70-9841-4b7c2d2cca71,773,0,577
+1783546098211,771,GET /Elixirs/{id},200,OK,Usuarios 1-5,text,true,,1161,203,1,1,https://wizard-world-api.herokuapp.com/Elixirs/0106fb32-b00d-4d70-9841-4b7c2d2cca71,771,0,575

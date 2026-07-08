@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 798.6,
+    "medianResTime" : 791.0,
+    "minResTime" : 782.0,
+    "maxResTime" : 835.0,
+    "pct1ResTime" : 835.0,
+    "pct2ResTime" : 835.0,
+    "pct3ResTime" : 835.0,
+    "throughput" : 2.1579628830384117,
+    "receivedKBytesPerSec" : 28.82524209646094,
+    "sentKBytesPerSec" : 0.3582555567544238
+  },
+  "GET /Ingredients" : {
+    "transaction" : "GET /Ingredients",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 798.6,
+    "medianResTime" : 791.0,
+    "minResTime" : 782.0,
+    "maxResTime" : 835.0,
+    "pct1ResTime" : 835.0,
+    "pct2ResTime" : 835.0,
+    "pct3ResTime" : 835.0,
+    "throughput" : 2.1579628830384117,
+    "receivedKBytesPerSec" : 28.82524209646094,
+    "sentKBytesPerSec" : 0.3582555567544238
+  }
+}
