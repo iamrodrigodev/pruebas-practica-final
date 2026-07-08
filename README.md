@@ -13,6 +13,16 @@
         </th>
       </tr>
     </thead>
+    <tbody>
+      <tr>
+        <td align="center">2026-I</td>
+        <td align="center">Marco Antonio Camacho Alatrista</td>
+        <td align="center">Ciberseguridad</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><strong>Estudiante:</strong> Luis Enrique Patiño Herrera</td>
+      </tr>
+    </tbody>
   </table>
 </div>
 
