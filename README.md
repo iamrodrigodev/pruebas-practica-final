@@ -65,7 +65,6 @@
   - [10 — GET /Spells?name=Lumos](#10--get-spellsnamelumos)
 - [Cómo ejecutar las pruebas](#cómo-ejecutar-las-pruebas)
 
----
 
 ## Tecnologías utilizadas
 
@@ -81,7 +80,6 @@
 
 </div>
 
----
 
 ## Estructura del proyecto
 
@@ -100,7 +98,6 @@ pruebas-practica-final/
 └── README.md
 ```
 
----
 
 ## Parte 1: Pruebas con Selenium
 
@@ -108,7 +105,6 @@ Las pruebas Selenium automatizan un formulario HTML en [testpages.eviltester.com
 
 > **Resultado:** 10/10 pruebas pasadas
 
----
 
 ### 01 — Carga de página
 
@@ -122,7 +118,6 @@ Verifica que la página cargue correctamente: comprueba el título `"HTML Form T
 
 ![01-titulo-verificado](selenium/screenshots/01-titulo-verificado.png)
 
----
 
 ### 02 — Campo de texto (Username)
 
@@ -140,7 +135,6 @@ Limpia el campo `username`, escribe `"usuarioPrueba"` letra por letra y verifica
 
 ![02-username-limpiado](selenium/screenshots/02-username-limpiado.png)
 
----
 
 ### 03 — Campo de contraseña (Password)
 
@@ -158,7 +152,6 @@ Escribe `"contraseña123"` en el campo `password` y verifica que el campo esté 
 
 ![03-password-verificado](selenium/screenshots/03-password-verificado.png)
 
----
 
 ### 04 — Área de texto (Textarea)
 
@@ -176,7 +169,6 @@ Escribe una primera línea en el textarea, luego agrega una segunda línea usand
 
 ![04-textarea-reescrito](selenium/screenshots/04-textarea-reescrito.png)
 
----
 
 ### 05 — Checkbox 1
 
@@ -194,7 +186,6 @@ Localiza el primer checkbox (`cb1`), verifica su estado inicial, hace clic para 
 
 ![05-checkbox1-segundo-click](selenium/screenshots/05-checkbox1-segundo-click.png)
 
----
 
 ### 06 — Checkbox 2
 
@@ -212,7 +203,6 @@ Igual que el test anterior pero con el segundo checkbox (`cb2`), confirmando que
 
 ![06-checkbox2-segundo-click](selenium/screenshots/06-checkbox2-segundo-click.png)
 
----
 
 ### 07 — Radio button masculino
 
@@ -230,7 +220,6 @@ Localiza el radio button `rd1`, verifica que no esté seleccionado inicialmente,
 
 ![07-radio-masculino-verificado](selenium/screenshots/07-radio-masculino-verificado.png)
 
----
 
 ### 08 — Radio button femenino
 
@@ -248,7 +237,6 @@ Selecciona primero `rd1` (masculino) y luego `rd2` (femenino), verificando que a
 
 ![08-radio-exclusion-verificada](selenium/screenshots/08-radio-exclusion-verificada.png)
 
----
 
 ### 09 — Dropdown (select)
 
@@ -270,7 +258,6 @@ Obtiene las opciones del dropdown `dropdown`, selecciona el índice 1 y verifica
 
 ![09-dropdown-verificado](selenium/screenshots/09-dropdown-verificado.png)
 
----
 
 ### 10 — Envío del formulario
 
@@ -292,7 +279,6 @@ Llena el campo `username` con `"testEnvioFinal"`, hace scroll hasta el botón su
 
 ![10-resultados-verificados](selenium/screenshots/10-resultados-verificados.png)
 
----
 
 ## Parte 2: Pruebas con JMeter
 
@@ -300,7 +286,6 @@ Las pruebas JMeter realizan peticiones de carga a la API pública [wizard-world-
 
 > **Resultado:** 10/10 pruebas pasadas — PASS 100% en todas
 
----
 
 ### 01 — GET /Houses
 
@@ -308,7 +293,6 @@ Lista todas las casas de Hogwarts. Verifica código 200 y que `$[0].id` exista e
 
 ![01-get-books](jmeter/capturas/01-get-books.png)
 
----
 
 ### 02 — GET /Houses/{id}
 
@@ -316,7 +300,6 @@ Obtiene una casa específica por su UUID. Verifica código 200 y que `$.id` exis
 
 ![02-get-book-por-slug](jmeter/capturas/02-get-book-por-slug.png)
 
----
 
 ### 03 — GET /Wizards
 
@@ -324,7 +307,6 @@ Lista todos los magos registrados en la API. Verifica código 200 y la existenci
 
 ![03-get-characters](jmeter/capturas/03-get-characters.png)
 
----
 
 ### 04 — GET /Wizards?firstName=Fred
 
@@ -332,7 +314,6 @@ Filtra magos por nombre de pila `Fred`. Verifica código 200 y que el primer res
 
 ![04-get-characters-filtro](jmeter/capturas/04-get-characters-filtro.png)
 
----
 
 ### 05 — GET /Spells
 
@@ -340,7 +321,6 @@ Lista todos los hechizos disponibles en la API. Verifica código 200 y la existe
 
 ![05-get-movies](jmeter/capturas/05-get-movies.png)
 
----
 
 ### 06 — GET /Spells/{id}
 
@@ -348,7 +328,6 @@ Obtiene un hechizo específico por su UUID. Verifica código 200 y que `$.id` ex
 
 ![06-get-movie-por-slug](jmeter/capturas/06-get-movie-por-slug.png)
 
----
 
 ### 07 — GET /Elixirs
 
@@ -356,7 +335,6 @@ Lista todos los elixires registrados. Verifica código 200 y la existencia de `$
 
 ![07-get-potions](jmeter/capturas/07-get-potions.png)
 
----
 
 ### 08 — GET /Elixirs/{id}
 
@@ -364,7 +342,6 @@ Obtiene un elixir específico por su UUID. Verifica código 200 y que `$.id` exi
 
 ![08-get-potions-filtro](jmeter/capturas/08-get-potions-filtro.png)
 
----
 
 ### 09 — GET /Ingredients
 
@@ -372,7 +349,6 @@ Lista todos los ingredientes disponibles en la API. Verifica código 200 y la ex
 
 ![09-get-spells](jmeter/capturas/09-get-spells.png)
 
----
 
 ### 10 — GET /Spells?name=Lumos
 
@@ -380,7 +356,6 @@ Filtra hechizos por nombre `Lumos`. Verifica código 200 y que el primer resulta
 
 ![10-get-spells-filtro](jmeter/capturas/10-get-spells-filtro.png)
 
----
 
 ## Cómo ejecutar las pruebas
 
