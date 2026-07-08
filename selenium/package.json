@@ -1,0 +1,37 @@
+{
+  "name": "pruebas-practica-final",
+  "version": "1.0.0",
+  "description": "Pruebas con Selenium (eviltester forms) y JMeter (PotterDB API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:01": "vitest run src/test/01-carga-pagina.test.ts",
+    "test:02": "vitest run src/test/02-campo-texto.test.ts",
+    "test:03": "vitest run src/test/03-campo-password.test.ts",
+    "test:04": "vitest run src/test/04-campo-textarea.test.ts",
+    "test:05": "vitest run src/test/05-checkbox-uno.test.ts",
+    "test:06": "vitest run src/test/06-checkbox-dos.test.ts",
+    "test:07": "vitest run src/test/07-radio-masculino.test.ts",
+    "test:08": "vitest run src/test/08-radio-femenino.test.ts",
+    "test:09": "vitest run src/test/09-dropdown-select.test.ts",
+    "test:10": "vitest run src/test/10-envio-formulario.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamrodrigodev/pruebas-practica-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iamrodrigodev/pruebas-practica-final/issues"
+  },
+  "homepage": "https://github.com/iamrodrigodev/pruebas-practica-final#readme",
+  "devDependencies": {
+    "@types/selenium-webdriver": "4.35.6",
+    "selenium-webdriver": "4.45.0",
+    "typescript": "6.0.3",
+    "vitest": "4.1.9"
+  }
+}
