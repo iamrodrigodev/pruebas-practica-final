@@ -102,7 +102,7 @@ pruebas-practica-final/
 
 Las pruebas Selenium automatizan un formulario HTML en [testpages.eviltester.com](https://testpages.eviltester.com/styled/basic-html-form-test.html) utilizando **Chrome WebDriver**. Se validan 10 escenarios distintos con **31 capturas de pantalla** en total.
 
-> **Resultado:** 10/10 pruebas pasadas ✅
+> **Resultado:** 10/10 pruebas pasadas
 
 ---
 
@@ -294,7 +294,7 @@ Llena el campo `username` con `"testEnvioFinal"`, hace scroll hasta el botón su
 
 Las pruebas JMeter realizan peticiones de carga a la API pública [wizard-world-api.herokuapp.com](https://wizard-world-api.herokuapp.com) con **5 usuarios simultáneos** por prueba. Cada test valida el código de respuesta HTTP 200 y la existencia del campo `id` en el JSON retornado.
 
-> **Resultado:** 10/10 pruebas pasadas — PASS 100% en todas ✅
+> **Resultado:** 10/10 pruebas pasadas — PASS 100% en todas
 
 ---
 
