@@ -36,7 +36,6 @@
   <p>Práctica final de pruebas automatizadas con Selenium WebDriver y Apache JMeter</p>
 </div>
 
----
 
 ## Índice
 
