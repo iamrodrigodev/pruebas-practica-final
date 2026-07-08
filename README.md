@@ -13,7 +13,15 @@
         </th>
       </tr>
     </thead>
+  </table>
+
+  <table>
     <tbody>
+      <tr>
+        <td align="center"><strong>Semestre</strong></td>
+        <td align="center"><strong>Docente</strong></td>
+        <td align="center"><strong>Curso</strong></td>
+      </tr>
       <tr>
         <td align="center">2026-I</td>
         <td align="center">Luis Enrique Patiño Herrera</td>
