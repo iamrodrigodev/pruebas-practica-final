@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1144.8,
+    "medianResTime" : 1135.0,
+    "minResTime" : 1130.0,
+    "maxResTime" : 1181.0,
+    "pct1ResTime" : 1181.0,
+    "pct2ResTime" : 1181.0,
+    "pct3ResTime" : 1181.0,
+    "throughput" : 1.8832391713747645,
+    "receivedKBytesPerSec" : 115.79897893126177,
+    "sentKBytesPerSec" : 0.305290725047081
+  },
+  "GET /Elixirs" : {
+    "transaction" : "GET /Elixirs",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1144.8,
+    "medianResTime" : 1135.0,
+    "minResTime" : 1130.0,
+    "maxResTime" : 1181.0,
+    "pct1ResTime" : 1181.0,
+    "pct2ResTime" : 1181.0,
+    "pct3ResTime" : 1181.0,
+    "throughput" : 1.8832391713747645,
+    "receivedKBytesPerSec" : 115.79897893126177,
+    "sentKBytesPerSec" : 0.305290725047081
+  }
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="04 - GET /Wizards?firstName=Harry (Mago por nombre)" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="04 - GET /Wizards?firstName=Fred (Mago por nombre)" enabled="true">
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -23,14 +23,14 @@
       <hashTree>
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Cabeceras" enabled="true">
           <collectionProp name="HeaderManager.headers">
-            <elementProp "" elementType="Header">
+            <elementProp name="" elementType="Header">
               <stringProp name="Header.name">Accept</stringProp>
               <stringProp name="Header.value">application/json</stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /Wizards?firstName=Harry" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="GET /Wizards?firstName=Fred" enabled="true">
           <stringProp name="HTTPSampler.domain">wizard-world-api.herokuapp.com</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -45,7 +45,7 @@
               <elementProp name="firstName" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">firstName</stringProp>
-                <stringProp name="Argument.value">Harry</stringProp>
+                <stringProp name="Argument.value">Fred</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>

@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 788.8,
+    "medianResTime" : 782.0,
+    "minResTime" : 773.0,
+    "maxResTime" : 817.0,
+    "pct1ResTime" : 817.0,
+    "pct2ResTime" : 817.0,
+    "pct3ResTime" : 817.0,
+    "throughput" : 2.167316861725184,
+    "receivedKBytesPerSec" : 3.1489590106198526,
+    "sentKBytesPerSec" : 0.42753711530125704
+  },
+  "GET /Houses/{id}" : {
+    "transaction" : "GET /Houses/{id}",
+    "sampleCount" : 5,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 788.8,
+    "medianResTime" : 782.0,
+    "minResTime" : 773.0,
+    "maxResTime" : 817.0,
+    "pct1ResTime" : 817.0,
+    "pct2ResTime" : 817.0,
+    "pct3ResTime" : 817.0,
+    "throughput" : 2.167316861725184,
+    "receivedKBytesPerSec" : 3.1489590106198526,
+    "sentKBytesPerSec" : 0.42753711530125704
+  }
+}

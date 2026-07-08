@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1783546061690,817,GET /Houses/{id},200,OK,Usuarios 1-1,text,true,,1491,202,3,3,https://wizard-world-api.herokuapp.com/Houses/0367baf3-1cb6-4baf-bede-48e17e1cd005,815,0,611
+1783546062016,781,GET /Houses/{id},200,OK,Usuarios 1-2,text,true,,1487,202,2,2,https://wizard-world-api.herokuapp.com/Houses/0367baf3-1cb6-4baf-bede-48e17e1cd005,781,0,583
+1783546062415,773,GET /Houses/{id},200,OK,Usuarios 1-3,text,true,,1487,202,2,2,https://wizard-world-api.herokuapp.com/Houses/0367baf3-1cb6-4baf-bede-48e17e1cd005,773,0,576
+1783546062815,791,GET /Houses/{id},200,OK,Usuarios 1-4,text,true,,1487,202,2,2,https://wizard-world-api.herokuapp.com/Houses/0367baf3-1cb6-4baf-bede-48e17e1cd005,791,0,575
+1783546063215,782,GET /Houses/{id},200,OK,Usuarios 1-5,text,true,,1487,202,1,1,https://wizard-world-api.herokuapp.com/Houses/0367baf3-1cb6-4baf-bede-48e17e1cd005,782,0,586
